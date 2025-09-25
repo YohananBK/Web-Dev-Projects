@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(
+        to right, 
+        red, purple
+    );
+    min-height: 100vh; /* ensures it fills the screen */
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:rgb(207, 208, 231);
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p.intro{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(213, 235, 235);
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(222, 246, 223);}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(49, 223, 223);
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(234, 207, 147);
+}
+hr{
+    height: 0px;
+    width: 30%;
+    border-width: 4px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(223, 115, 202);
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: rgb(173, 219, 234);
+    text-decoration: none;
+}
