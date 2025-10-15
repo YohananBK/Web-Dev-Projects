@@ -1,12 +1,19 @@
-body{
-    background:linear-gradient( to right, #5f44d5, #6266b9, #465ceb98);
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
     min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #5f44d5, #6266b9, #465ceb98);
 }
-.Loginbox{
-    margin: auto;
-    position: absolute;
+.Loginbox {
     width: 400px;
-    height: 420px;
+    max-width: 60%;       
+    height: auto;         
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #433195, #533bcf, #475ce298);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 h3{
     text-align: center;
