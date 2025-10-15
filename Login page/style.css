@@ -3,7 +3,8 @@ body{
     min-height: 100vh;
 }
 .Loginbox{
-    margin: 200px auto;
+    margin: auto;
+    position: relative;
     width: 400px;
     height: 420px;
 }
@@ -83,4 +84,5 @@ label{
 input{
     font-size: 14px;
     padding: 10px; /* Adds space inside the input box */
+
 }
