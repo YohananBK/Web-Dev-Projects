@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, rgb(64, 12, 222), rgb(170, 59, 207));
+}
+div{
+    border-radius: 20px;
+    background:linear-gradient( to right, #433195, #533bcf, #475ce298);
+    box-shadow: #14012b;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 530px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+label{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+button{
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(68, 9, 187);
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button:hover {
+    background-color: rgb(60, 20, 200);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+}
+a{
+    margin: 10px auto;
+    color: aqua;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.account{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 18px;
+    color: white;
+}

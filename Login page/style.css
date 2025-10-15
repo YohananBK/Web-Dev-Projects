@@ -1,0 +1,86 @@
+body{
+    background:linear-gradient( to right, #5f44d5, #6266b9, #465ceb98);
+    min-height: 100vh;
+}
+.Loginbox{
+    margin: 200px auto;
+    width: 400px;
+    height: 420px;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+label.username{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+label.password{
+    margin: auto;
+    margin-bottom: 200px;
+}
+.Loginbox label, .Loginbox input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.Loginbox label {
+    text-align: left;
+    color: white;
+    margin: 20px auto 20px auto;
+}
+div{
+    border-radius: 20px;
+    background:linear-gradient( to right, #433195, #533bcf, #475ce298);
+    box-shadow: #14012b;
+}
+input.username{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+input.password{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+a{
+    margin: 5px;
+    color: aqua;
+}
+label.signup{
+    padding-left: 40px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(41, 12, 156);
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button:hover {
+    background-color: rgb(60, 20, 200);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+}
+label{
+    font-size: large;
+}
+input{
+    font-size: 14px;
+    padding: 10px; /* Adds space inside the input box */
+}
