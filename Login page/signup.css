@@ -1,43 +1,38 @@
-/* Body background */
 body {
     background: linear-gradient(to right, rgb(64, 12, 222), rgb(170, 59, 207));
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    min-height: 100vh;
 }
 
-/* Centered signup box */
 div {
-    max-width: 400px;
-    width: 90%;
-    margin: 50px auto;
-    padding: 20px;
+    width: 400px;       
+    height: 480px;
+    padding: 20px 30px;
     border-radius: 20px;
     background: linear-gradient(to right, #433195, #533bcf, #475ce298);
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
-    height: auto;
-    position: relative;
 }
-
-/* Heading */
 h2 {
     text-align: center;
     color: white;
     padding-bottom: 15px;
 }
 
-/* Labels */
 label {
     display: block;
-    text-align: left;
     color: white;
-    font-size: 18px;
-    margin: 15px 0 5px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: auto;
 }
 
-/* Inputs */
 input {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 35px;
     border-radius: 10px;
     border: none;
@@ -51,9 +46,9 @@ input:focus {
     box-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
 
-/* Button */
 button {
-    width: 100%;
+    width: 350px;
+    margin: 20px auto 10px 10px;
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -70,28 +65,18 @@ button:hover {
     transform: scale(1.02);
 }
 
-/* Links */
 a {
     color: aqua;
     text-decoration: none;
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 5px;
 }
-
-.account {
-    display: block;
-    margin-top: 20px;
-}
-
-/* Mobile tweaks */
-@media (max-width: 500px) {
-    div {
-        margin: 20px auto;
-        width: 95%;
-        padding: 15px;
-    }
-    button {
-        font-size: 18px;
-        height: 45px;
-    }
+p{
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+    font-size: 18px;
+    display: flex;
+    float: left;
+    padding-bottom: 10px;
 }
