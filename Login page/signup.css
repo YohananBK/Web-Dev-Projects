@@ -10,9 +10,9 @@ body {
 
 div {
     width: 520px;
-    height: 475px;
+    height: 470px;
     max-width: 390px;
-    max-height: 515px;
+    max-height: 510px;
     border-radius: 20px;
     padding: 10px;
     border-radius: 20px;
@@ -71,15 +71,14 @@ button:hover {
 }
 
 a {
+    margin-left: 5px;
     color: aqua;
     text-decoration: none;
     font-size: 18px;
-    float: auto;
-    margin-left: 5px;
 }
 p{
     color: white;
-    margin: auto;
+    margin-top: 0px;
     margin-left: 20px;
     font-size: 18px;
     display: flex;
