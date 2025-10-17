@@ -1,98 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
 body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #e9d3a5;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+header h1 {
+    color: #6ae0e0;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+p.intro {
+    color: #e9d3a5;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+ul.nav-links {
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;     
-    min-height: 100vh;
-    margin: 0;
-    background: linear-gradient(to right, #5f44d5, #6266b9, #465ceb98);
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-h2{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-label.username{
-    margin-left: 50px;
-    margin-top: 20px;
-}
-label.password{
-    margin: auto;
-    margin-bottom: 200px;
-}
-.Loginbox label, .Loginbox input {
-    display: block;
-    margin: 10px auto;
-    width: 80%;
-}
-
-.Loginbox label {
-    text-align: left;
-    color: white;
-    margin: 20px auto 20px auto;
-}
-div{
-    width: 420px;
-    height: 420px;
-    max-width: 350px;
-    max-height: 410px;
-    border-radius: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    background: linear-gradient(to right, #433195, #533bcf, #475ce298);
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    margin: auto;
-}
-input.username{
-    width: 80%;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-}
-input.password{
-    width: 80%;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-}
-a{
-    margin: 5px;
+ul.nav-links li a {
+    color: #76c7f0;
+    font-weight: 600;
     text-decoration: none;
-    color: aqua;
+    transition: color 0.3s ease;
 }
-label.signup{
-    padding-left: 40px;
+
+ul.nav-links li a:hover {
+    color: #6ae0e0;
 }
-.button {
-    display: block; 
-    margin: 20px auto; 
+
+/* Section Styling */
+section {
+    background: rgba(255, 255, 255, 0.05);
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
     width: 80%;
-    align-content: center;
-    height: 50px;
-    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #6ae0e0;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Lists */
+ul {
+    list-style: disc inside;
+    color: #e9d3a5;
+    padding-left: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Paragraphs */
+p {
+    color: #e9d3a5;
+}
+
+/* Horizontal Rule */
+hr {
     border: none;
-    background-color: rgb(41, 12, 156);
-    color: white;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    font-size: 20px;
+    height: 2px;
+    background: linear-gradient(to right, #6ae0e0, #e9d3a5);
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 2px;
 }
-.button:hover {
-    background-color: rgb(60, 20, 200);
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
+
+/* Links */
+a {
+    color: #76c7f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
-input:focus {
-    outline: none;
-    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+
+a:hover {
+    color: #6ae0e0;
 }
-label{
-    font-size: large;
-}
-input{
-    font-size: 14px;
-    padding: 10px; /* Adds space inside the input box */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    font-size: 0.9rem;
 }
