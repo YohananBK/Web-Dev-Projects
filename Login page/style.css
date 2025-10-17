@@ -94,5 +94,11 @@ label{
 }
 input{
     font-size: 14px;
-    padding: 10px; /* Adds space inside the input box */
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    a {
+        font-size: 1.5rem;
+        padding: 15px 25px;
+    }
 }
