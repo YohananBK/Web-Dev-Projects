@@ -6,21 +6,13 @@ body {
     margin: 0;
     background: linear-gradient(to right, #5f44d5, #6266b9, #465ceb98);
 }
-.Loginbox {
-    width: 400px;
-    max-width: 60%;       
-    height: auto;         
-    padding: 20px;
-    border-radius: 20px;
-    background: linear-gradient(to right, #433195, #533bcf, #475ce298);
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-h3{
+
+h2{
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 20px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 label.username{
     margin-left: 50px;
@@ -42,38 +34,50 @@ label.password{
     margin: 20px auto 20px auto;
 }
 div{
+    width: 420px;
+    height: 420px;
+    max-width: 350px;
+    max-height: 410px;
     border-radius: 20px;
-    background:linear-gradient( to right, #433195, #533bcf, #475ce298);
-    box-shadow: #14012b;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #433195, #533bcf, #475ce298);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin: auto;
 }
 input.username{
+    width: 80%;
     height: 35px;
     border-radius: 10px;
     border: none;
 }
 input.password{
+    width: 80%;
     height: 35px;
     border-radius: 10px;
     border: none;
 }
 a{
     margin: 5px;
+    text-decoration: none;
     color: aqua;
 }
 label.signup{
     padding-left: 40px;
 }
-.button{
-    margin-top: 30px;
-    margin-left: 45px;
-    width: 310px;
-    height: 40px;
+.button {
+    display: block; 
+    margin: 20px auto; 
+    width: 80%;
+    align-content: center;
+    height: 50px;
     border-radius: 10px;
     border: none;
     background-color: rgb(41, 12, 156);
     color: white;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
 }
 .button:hover {
     background-color: rgb(60, 20, 200);
