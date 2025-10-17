@@ -85,3 +85,9 @@ p{
     float: left;
     padding-bottom: 10px;
 }
+@media (max-width: 600px) {
+    a {
+        font-size: 1.5rem;
+        padding: 15px 25px;
+    }
+}
