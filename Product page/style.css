@@ -25,7 +25,7 @@ body{ background: #f8f9fa; }
 .nav-link{
     margin-right: 1.25rem;
     font-weight: 500;
-    font-size: 1.05rem;
+    font-size: 0.5rem;
 }
 .Sign-button{
     background-color: var(--brand);
@@ -109,3 +109,4 @@ footer{ background: transparent; padding-top: 3rem; padding-bottom: 3rem; }
     .Navigation-bar .nav-link { padding: 0.6rem 0.5rem; }
     .navbar-toggler { z-index: 1200; }
 }
+
