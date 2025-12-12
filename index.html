@@ -1,244 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Product page with pricing">
-    <title>Product — with Pricing</title>
-
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap CSS (CDN) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body class="bg-white text-dark" style="font-family: Poppins, system-ui, -apple-system, sans-serif;">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm Navigation-bar">
-      <div class="container">
-        <a class="navbar-brand fw-bold brand-name" href="#">yAI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-            <li class="nav-item ms-3"><a class="btn btn-primary btn-sm Sign-button" href="#">Sign up</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Hero -->
-    <header class="hero py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold">Built for everyday use</h1>
-            <p class="lead text-muted">Jumpstart your studies with Notemate.</p>
-            <div class="mt-4">
-              <a href="#" class="btn btn-primary btn-lg me-2 open-signup" data-plan="Pro">Get it now</a>
-              <a href="#pricing" class="btn btn-outline-secondary btn-lg">See pricing</a>
-            </div>
-          </div>
-          <div class="col-lg-6 text-center d-none d-lg-block">
-          <div class="device-mockup shadow-lg image-div"><img src="device-mockup.png" alt="Device Mockup"></div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Features -->
-    <section id="features" class="py-5">
-      <div class="container">
-        <div class="row g-4 text-center">
-          <div class="col-md-4">
-            <div class="p-4 rounded-3 feature-card h-100">
-              <h3 class="fw-semibold">Easy to use</h3>
-              <p class="text-muted mb-0">So easy to use the simplest things you could do.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-4 rounded-3 feature-card h-100">
-              <h3 class="fw-semibold">Elite Clientele</h3>
-              <p class="text-muted mb-0">Optimized for best experience.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-4 rounded-3 feature-card h-100">
-              <h3 class="fw-semibold">Guaranteed to work</h3>
-              <p class="text-muted mb-0">Tested and Marketed by our team.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing (appended) -->
-    <section id="pricing" class="py-5 bg-light">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="fw-bold">A Plan For Every Need</h2>
-          <p class="text-muted">Simple, predictable pricing — pick what works for you.</p>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100 shadow-sm pricing-card border-0">
-              <div class="card-body text-center">
-                <h5 class="card-title text-uppercase text-muted">Free</h5>
-                <h2 class="display-6 fw-bold">$0 <small class="text-muted fs-6">/ mo</small></h2>
-                <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width:220px;">
-                  <li class="mb-2">3 users included</li>
-                  <li class="mb-2">2 GB storage</li>
-                  <li class="mb-2">Email support</li>
-                  <li class="mb-2">Base features</li>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yohanan Biruk - Portfolio</title>
+    </head>
+    <body> 
+        <header>
+            <h1>Yohanan Biruk</h1>
+            <p class="intro">Aspiring Developer | Entrepreneur | Creator</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary open-signup" data-plan="Free">Sign up</a>
-              </div>
-            </div>
-          </div>
+            </nav>
+            <hr>
+        </header>
 
-          <div class="col">
-            <div class="card h-100 shadow-sm pricing-card border-0 featured">
-              <div class="card-body text-center">
-                <h5 class="card-title text-uppercase text-muted">Pro</h5>
-                <h2 class="display-6 fw-bold">$14.99 <small class="text-muted fs-6">/ mo</small></h2>
-                <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width:220px;">
-                  <li class="mb-2">20 users included</li>
-                  <li class="mb-2">10 GB storage</li>
-                  <li class="mb-2">Priority support</li>
-                  <li class="mb-2">Simple AI features</li>
-                </ul>
-                <a href="#" class="btn btn-outline-primary open-signup" data-plan="Pro">Sign up</a>
-              </div>
-            </div>
-          </div>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I’m Yohanan! I love coding, building apps like NoteMate, and learning new technologies. My goal is to create products that make life easier for people everywhere.</p>
+        </section>
+        <hr>
 
-          <div class="col">
-            <div class="card h-100 shadow-sm pricing-card border-0">
-              <div class="card-body text-center">
-                <h5 class="card-title text-uppercase text-muted">Enterprise</h5>
-                <h2 class="display-6 fw-bold">$29.99 <small class="text-muted fs-6">/ mo</small></h2>
-                <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width:220px;">
-                  <li class="mb-2">30 users included</li>
-                  <li class="mb-2">15 GB storage</li>
-                  <li class="mb-2">Phone & email</li>
-                  <li class="mb-2">AI summerized notes</li>
-                </ul>
-                <a href="#" class="btn btn-outline-primary open-signup" data-plan="Enterprise">Sign up</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python & OOP</li>
+                <li>HTML & CSS</li>
+                <li>Android Development</li>
+                <li>AI & Automation</li>
+                <li>Freelancing & Business</li>
+            </ul>
+        </section>
+        <hr>
 
-    <!-- Footer -->
-    <footer class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p class="mb-1">&copy; 2025 Developed by Yohanan Biruk</p>
-            <small class="text-muted">Built with Bootstrap</small>
-          </div>
-          <div class="col-md-6 text-md-end">
-            <a href="#" class="text-muted me-3">Privacy</a>
-            <a href="#" class="text-muted">Terms</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>NoteMate – Smart note-taking app</li>
+                <li>Portfolio Website – This site</li>
+                <li>Freelance Projects – Websites & Automations</li>
+            </ul>
+        </section>
+        <hr>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Interactive behavior: smooth scroll + signup modal -->
-    <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Create your account</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form id="signupForm">
-              <div class="mb-3">
-                <label for="signupName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="signupName" required>
-              </div>
-              <div class="mb-3">
-                <label for="signupEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="signupEmail" required>
-              </div>
-              <input type="hidden" id="signupPlan" name="plan" value="">
-            </form>
-            <div id="signupNote" class="text-muted small">You'll receive a confirmation email.</div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" id="signupSubmit" class="btn btn-primary">Create account</button>
-          </div>
-        </div>
-      </div>
-    </div>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: yohanan2721@gmail.com</p>
+            <p>Phone: +251927215353</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/">linkedin.com/in/yohananbiruk</a></p>
+        </section>
 
-    <script>
-      // Smooth scroll for internal links to sections
-      document.querySelectorAll('a[href^="#"]').forEach(a=>{
-        a.addEventListener('click', function(e){
-          const href = this.getAttribute('href');
-          if(href.length>1 && href.startsWith('#')){
-            const target = document.querySelector(href);
-            if(target){
-              e.preventDefault();
-              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              // collapse navbar on mobile after clicking
-              const bsCollapse = document.querySelector('.navbar-collapse');
-              if(bsCollapse && bsCollapse.classList.contains('show')){
-                const collapseInstance = bootstrap.Collapse.getInstance(bsCollapse) || new bootstrap.Collapse(bsCollapse);
-                collapseInstance.hide();
-              }
-            }
-          }
-        });
-      });
-
-      // Open signup modal from CTAs and pricing buttons
-      const signupModalEl = document.getElementById('signupModal');
-      const signupModal = new bootstrap.Modal(signupModalEl);
-      document.querySelectorAll('.open-signup').forEach(btn => {
-        btn.addEventListener('click', e => {
-          e.preventDefault();
-          const plan = btn.getAttribute('data-plan') || '';
-          document.getElementById('signupPlan').value = plan;
-          // update modal title to show selected plan
-          const title = signupModalEl.querySelector('.modal-title');
-          title.textContent = plan ? `Sign up — ${plan}` : 'Create your account';
-          signupModal.show();
-        });
-      });
-
-      // Fake submit: demonstrate action then close modal
-      document.getElementById('signupSubmit').addEventListener('click', ()=>{
-        const name = document.getElementById('signupName').value.trim();
-        const email = document.getElementById('signupEmail').value.trim();
-        const plan = document.getElementById('signupPlan').value;
-        if(!name || !email){
-          alert('Please enter name and email to continue.');
-          return;
-        }
-        // Here you would POST to your signup endpoint. We'll show a simple confirmation.
-        document.getElementById('signupNote').textContent = `Thanks ${name}! A confirmation for the ${plan||'selected'} plan was sent to ${email} (demo).`;
-        setTimeout(()=> signupModal.hide(), 1200);
-      });
-    </script>
-  </body>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Yohanan Biruk. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
