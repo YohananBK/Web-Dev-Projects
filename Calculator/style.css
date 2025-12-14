@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #074467, #021f40);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cal-box {
+    background-color: #09757b8a;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.input {
+    width: 90%;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+button {
+    background-color: #036fb7;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #2f33a7;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Make the clear button span two columns */
+.span-two {
+    grid-column: span 2;
+    width: 270px;
+}
