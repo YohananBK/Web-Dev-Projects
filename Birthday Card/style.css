@@ -1,75 +1,80 @@
-body{
+body {
     background: linear-gradient(to right, #f52c4e,#fa5470, #fd9aaa);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     height: 100vh;
 }
-h1{
+
+h1 {
     color: #f5d0ea;
     font-family: 'Freestyle Script';
-    font-weight:light;
+    font-weight: lighter;
     font-size: 70px;
     margin: 0;
     padding: 0;
 }
-button{
-    width: 200px;
-    height: 50px;
+
+button {
     font-size: 1.4rem;
     font-family: 'Times New Roman', Times, serif;
     background-color: pink;
     color: rgb(93, 93, 93);
     border: none;
     border-radius: 10px;
+    padding: 12px 20px; /* controls height & width automatically */
     transition: all 0.2s ease-in-out;
     margin: 0;
-    padding: 0;
 }
-button:hover{
+
+button:hover {
     background-color: #fbadba;
     cursor: pointer;
     transform: scale(1.05);
 }
+
 button:disabled {
-  background-color: #e0a6b4;
-  color: #777;
-  cursor: not-allowed;
-  transform: none;
+    background-color: #e0a6b4;
+    color: #777;
+    cursor: not-allowed;
+    transform: none;
 }
-p{
+
+p {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #f5d0ea;
     font-family: 'Freestyle Script';
-    font-weight:light;
+    font-weight: lighter;
     font-size: 50px;
 }
-@media (max-width: 600px){
-    button{
-        width: 100px;
-        height: 25px;
-        font-size: 1.4rem;
+
+/* MOBILE */
+@media (max-width: 600px) {
+    button {
+        font-size: 1rem;
+        padding: 8px 14px;
     }
-    p{
+    p {
         font-size: 25px;
     }
-    h1{
+    h1 {
         font-size: 30px;
     }
-
 }
-@media(min-width: 1000px){
-    button{
-        width: 300px;
-        height: 90px;
+
+/* LARGE SCREENS */
+@media (min-width: 1000px) {
+    button {
         font-size: 2rem;
+        padding: 18px 32px;
     }
-    p{
+    p {
         font-size: 80px;
     }
-    h1{
+    h1 {
         font-size: 75px;
     }
 }
