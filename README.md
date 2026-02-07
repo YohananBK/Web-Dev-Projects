@@ -2,7 +2,7 @@
 
 # Web Dev Projects
 
-> A collection of beginner-friendly web development projects I’ve built for learning and practice.
+> A collection of beginner-friendly web development projects I’ve built for learning and practice while I was learning HTML,CSS,JS...
 
 This repository holds a variety of simple web projects showcasing core skills in **HTML, CSS, and JavaScript**. Each project is standalone and demonstrates a specific UI, layout, or interaction pattern.
 
