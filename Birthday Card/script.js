@@ -1,1 +1,13 @@
-const bdbutton = document.querySelector('button'); const title = document.querySelector('h1'); const message = document.querySelector('p'); bdbutton.addEventListener('click', sensor); function sensor() { title.textContent = '🎉 Happy Birthday 🎉'; message.textContent = '"HBD to the best dad in the world, you mean a lot in my world and thank you for everything I 💖 U!"'; bdbutton.textContent = 'Have a great day!🎂'; bdbutton.disabled = true; }
+const bdbutton = document.querySelector('button');
+const title = document.querySelector('h1');
+const message = document.querySelector('p');
+
+bdbutton.addEventListener('click', sensor);
+
+function sensor() {
+  title.textContent = '🎉 Happy Birthday 🎉';
+  message.textContent =
+    '"HBD to the best dad in the world, you mean a lot in my world and thank you for everything I 💖 U!"';
+  bdbutton.textContent = 'Have a great day!🎂';
+  bdbutton.disabled = true;
+}
