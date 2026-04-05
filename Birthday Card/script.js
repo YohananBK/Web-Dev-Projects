@@ -7,7 +7,7 @@ bdbutton.addEventListener('click', sensor);
 function sensor() {
   title.textContent = '🎉 Happy Birthday 🎉';
   message.textContent =
-    '"HBD my bestie today was a day God created an amazing friend like you. We will always be best friends for life I ❤️ U bro!"';
+    '"HBD to the best dad in the world, you mean a lot in my world and thank you for everything I 💖 U!"';
   bdbutton.textContent = 'Have a great day!🎂';
   bdbutton.disabled = true;
 }
