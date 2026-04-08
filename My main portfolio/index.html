@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yohanan Biruk | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-slate-950 text-white antialiased font-sans">
+  <div class="page-glow"></div>
+
+  <header class="header">
+    <div class="container mx-auto flex items-center justify-between px-6 py-4">
+      <a href="#" class="brand">YOHANAN</a>
+
+      <nav class="nav-menu hidden items-center gap-10 text-sm uppercase tracking-[0.3em] text-slate-300 md:flex">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="#contact" class="cta-button hidden rounded-full bg-teal-400 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-teal-300 md:inline-flex">
+          Let's Connect
+        </a>
+        <button id="mobileMenuButton" class="mobile-menu-button md:hidden">
+          <span class="sr-only">Open menu</span>
+          <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu hidden border-t border-white/10 bg-slate-950/95 px-6 py-5 md:hidden">
+      <nav class="flex flex-col gap-5 text-sm uppercase tracking-[0.3em] text-slate-300">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section min-h-screen pt-28">
+      <div class="container mx-auto flex min-h-[calc(100vh-112px)] flex-col items-center justify-center px-6 text-center">
+        <div class="profile-frame relative mb-10">
+          <div class="profile-glow absolute inset-0 m-auto h-[190px] w-[190px] rounded-full blur-3xl bg-teal-400/20"></div>
+          <div class="profile-circle relative overflow-hidden rounded-full border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.35)]">
+            <img src="./my profile.jpg" alt="Yohanan Biruk" class="h-[180px] w-[180px] object-cover" />
+          </div>
+        </div>
+
+        <span class="eyebrow">Aspiring Developer + UI Designer</span>
+        <h1 class="hero-title">
+          Crafting sleek, responsive web experiences with polish and performance.
+        </h1>
+        <p class="hero-copy">
+          I build modern websites using clean design, subtle motion, and responsive interactions.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="hero-button hero-button-primary">View Projects</a>
+          <a href="#contact" class="hero-button hero-button-secondary">Get in Touch</a>
+        </div>
+
+        <div class="hero-social mt-10 flex flex-wrap justify-center gap-4">
+          <a href="#" class="social-link"><img src="./youtube.png" alt="YouTube" /></a>
+          <a href="#" class="social-link"><img src="./fiverr.png" alt="Fiverr" /></a>
+          <a href="#" class="social-link"><img src="./linkedin.png" alt="LinkedIn" /></a>
+          <a href="#" class="social-link"><img src="./github.png" alt="GitHub" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-reveal section-gap bg-[#090d16]">
+      <div class="container mx-auto grid gap-12 px-6 lg:grid-cols-[1.2fr_0.8fr]">
+        <div class="space-y-8">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Designing thoughtful interfaces and scalable code.</h2>
+          <p class="section-text">
+            I create compelling digital experiences with a focus on responsive layouts, accessible interactions, and polished motion.
+          </p>
+
+          <div class="grid gap-6 sm:grid-cols-3">
+            <div class="glass-card">
+              <span class="card-icon">⚡</span>
+              <h3 class="card-title">Fast UI</h3>
+              <p class="card-text">Lightning-fast, polished interfaces with strong visual clarity.</p>
+            </div>
+            <div class="glass-card">
+              <span class="card-icon">🧩</span>
+              <h3 class="card-title">Clean Code</h3>
+              <p class="card-text">Readable structure and responsive architecture for easy maintenance.</p>
+            </div>
+            <div class="glass-card">
+              <span class="card-icon">✨</span>
+              <h3 class="card-title">Modern Motion</h3>
+              <p class="card-text">Subtle animations that elevate every interaction.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-preview-card">
+          <div class="preview-overlay"></div>
+          <img src="./project one.png" alt="Project preview" class="preview-image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-reveal section-gap">
+      <div class="container mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-label">Projects</span>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-text max-w-2xl mx-auto">
+            A selection of responsive builds with polished interfaces and interactive details.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2">
+          <article class="project-card">
+            <img src="./project two.png" alt="Interactive Dashboard" class="project-image" />
+            <div class="project-content">
+              <span class="project-category">Web App</span>
+              <h3 class="project-title">Interactive Dashboard</h3>
+              <p class="project-description">A modern dashboard layout with responsive charts, smooth transitions, and clean visual hierarchy.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./project1.jpg" alt="Brand Landing Page" class="project-image" />
+            <div class="project-content">
+              <span class="project-category">Landing Page</span>
+              <h3 class="project-title">Brand Product Page</h3>
+              <p class="project-description">A crisp landing page with responsive sections and polished user flow.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-reveal section-gap bg-[#090d16]">
+      <div class="container mx-auto px-6 grid gap-12 lg:grid-cols-2">
+        <div class="glass-card contact-card">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's build something together.</h2>
+          <p class="section-text">
+            Have a project in mind? I'm currently available for freelance work and ready to help.
+          </p>
+          <div class="contact-details">
+            <div>
+              <span class="detail-label">Email</span>
+              <p class="detail-value">hello@yohanan.com</p>
+            </div>
+            <div>
+              <span class="detail-label">Location</span>
+              <p class="detail-value">Addis Ababa, Ethiopia</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="glass-card contact-form">
+          <div class="space-y-6">
+            <label class="form-label">
+              Name
+              <input type="text" placeholder="Your name" class="form-input" />
+            </label>
+            <label class="form-label">
+              Email
+              <input type="email" placeholder="you@example.com" class="form-input" />
+            </label>
+            <label class="form-label">
+              Message
+              <textarea rows="5" placeholder="Tell me about your project..." class="form-input"></textarea>
+            </label>
+            <button type="submit" class="hero-button hero-button-primary w-full">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container mx-auto px-6 text-center text-sm text-slate-500">
+      © 2026 Yohanan Biruk. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
