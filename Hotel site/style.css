@@ -919,3 +919,9 @@ button:focus-visible {
         min-height: 28rem;
     }
 }
+.initials {
+    color: rgba(253, 251, 247, 0.42);
+    font-size: 0.82rem;
+    padding: 0;
+    margin: auto;
+}
