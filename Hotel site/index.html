@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Velora Grand is a modern luxury hotel experience with elegant suites, curated dining, wellness, and seamless concierge service."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <title>Velora Grand | Luxury Hotel Experience</title>
+</head>
+<body>
+    <header class="hero" id="top">
+        <nav class="site-nav">
+            <a href="#top" class="brand">
+                <span class="brand-mark">VG</span>
+                <span class="brand-copy">
+                    <strong>Velora Grand</strong>
+                    <span>Boutique Resort &amp; Spa</span>
+                </span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#suites">Suites</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="#booking" class="nav-cta">Reserve Now</a>
+        </nav>
+
+        <div class="hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">Five-star waterfront retreat</p>
+                <h1>Where modern luxury feels deeply personal.</h1>
+                <p class="hero-text">
+                    Step into an elevated stay shaped by panoramic views, polished interiors,
+                    memorable dining, and service that anticipates every detail.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#booking" class="primary-button">Plan Your Stay</a>
+                    <a href="#experience" class="secondary-button">Explore Spaces</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>4.9/5</strong>
+                        <span>Guest satisfaction</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Concierge support</span>
+                    </div>
+                    <div>
+                        <strong>12</strong>
+                        <span>Signature experiences</span>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="booking-card" id="booking">
+                <p class="card-kicker">Direct reservation</p>
+                <h2>Reserve your escape</h2>
+
+                <form class="booking-form">
+                    <label>
+                        <span>Check-in</span>
+                        <input type="date" name="checkin">
+                    </label>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Check-out</span>
+                            <input type="date" name="checkout">
+                        </label>
+
+                        <label>
+                            <span>Guests</span>
+                            <select name="guests">
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>Family Suite</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <label>
+                        <span>Email address</span>
+                        <input type="email" name="email" placeholder="you@example.com">
+                    </label>
+
+                    <button type="submit" class="primary-button form-button">Book the Signature Suite</button>
+                </form>
+
+                <p class="booking-note">
+                    Complimentary breakfast, premium lounge access, and flexible arrival support
+                    when you reserve directly.
+                </p>
+            </aside>
+        </div>
+
+        <div class="hero-panel">
+            <article class="panel-card">
+                <span>Suites</span>
+                <strong>Floor-to-ceiling city and ocean views</strong>
+            </article>
+            <article class="panel-card">
+                <span>Dining</span>
+                <strong>Chef-led menus with rooftop ambiance</strong>
+            </article>
+            <article class="panel-card">
+                <span>Wellness</span>
+                <strong>Spa rituals, poolside calm, and private recovery spaces</strong>
+            </article>
+        </div>
+    </header>
+
+    <main>
+        <section class="story-section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">A refined arrival</p>
+                <h2>Crafted for guests who want calm, style, and seamless comfort.</h2>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-image">
+                    <img src="showcase.png" alt="Luxury hotel interiors with fine dining and resort amenities">
+                </div>
+
+                <div class="story-content">
+                    <article class="story-card">
+                        <span class="story-number">01</span>
+                        <h3>Elegant rooms with warmth built in</h3>
+                        <p>
+                            Every suite blends rich textures, tailored lighting, and quiet details
+                            that make the space feel private, polished, and restorative.
+                        </p>
+                    </article>
+
+                    <article class="story-card">
+                        <span class="story-number">02</span>
+                        <h3>Dining that feels elevated without trying too hard</h3>
+                        <p>
+                            Seasonal menus, intimate evening service, and relaxed breakfast lounges
+                            give every meal a sense of occasion.
+                        </p>
+                    </article>
+
+                    <article class="story-card">
+                        <span class="story-number">03</span>
+                        <h3>Designed around the pace of your stay</h3>
+                        <p>
+                            From quick city weekends to longer restorative escapes, the experience
+                            adjusts to how you want to travel, recharge, and explore.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section" id="experience">
+            <div class="section-heading section-heading-centered">
+                <p class="eyebrow">Designed for every moment</p>
+                <h2>A complete stay, from sunrise swims to candlelit dining.</h2>
+            </div>
+
+            <div class="experience-grid">
+                <article class="experience-card experience-featured">
+                    <p>Signature spaces</p>
+                    <h3>Relax in environments that feel cinematic, intimate, and unmistakably premium.</h3>
+                </article>
+
+                <article class="experience-card">
+                    <p>Private dining</p>
+                    <h3>Reserve curated chef experiences and quiet tables with skyline views.</h3>
+                </article>
+
+                <article class="experience-card">
+                    <p>Pool and wellness</p>
+                    <h3>Move from spa rituals to sunlit lounges and restorative evening swims.</h3>
+                </article>
+
+                <article class="experience-card">
+                    <p>Celebrations</p>
+                    <h3>Host proposals, anniversaries, and private events with tailored styling.</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="suites-section" id="suites">
+            <div class="section-heading section-heading-centered">
+                <p class="eyebrow">Stay your way</p>
+                <h2>Choose the suite that matches your mood, pace, and privacy.</h2>
+            </div>
+
+            <div class="suite-grid">
+                <article class="suite-card">
+                    <div class="suite-tier">Classic Escape</div>
+                    <h3>$149<span>/night</span></h3>
+                    <p>For weekend resets with refined essentials and warm, understated luxury.</p>
+                    <ul>
+                        <li>King bedroom with lounge seating</li>
+                        <li>Breakfast for two</li>
+                        <li>High-speed Wi-Fi and valet</li>
+                        <li>Pool and fitness access</li>
+                    </ul>
+                    <a href="#booking" class="suite-button">Reserve Classic</a>
+                </article>
+
+                <article class="suite-card suite-card-featured">
+                    <div class="suite-tier">Deluxe Horizon</div>
+                    <h3>$229<span>/night</span></h3>
+                    <p>The most popular choice for spacious comfort, elevated dining, and better views.</p>
+                    <ul>
+                        <li>Expanded suite with skyline terrace</li>
+                        <li>Breakfast and dinner credit</li>
+                        <li>Late checkout when available</li>
+                        <li>Wellness lounge access</li>
+                    </ul>
+                    <a href="#booking" class="suite-button">Reserve Deluxe</a>
+                </article>
+
+                <article class="suite-card">
+                    <div class="suite-tier">Grand Signature</div>
+                    <h3>$349<span>/night</span></h3>
+                    <p>A statement stay with concierge planning, premium privacy, and indulgent extras.</p>
+                    <ul>
+                        <li>Multi-room suite with private hosting area</li>
+                        <li>Arrival transfer and curated minibar</li>
+                        <li>Spa treatment for two</li>
+                        <li>Dedicated concierge assistance</li>
+                    </ul>
+                    <a href="#booking" class="suite-button">Reserve Signature</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-shell">
+                <div class="contact-copy">
+                    <p class="eyebrow">Tailored before you arrive</p>
+                    <h2>Let our concierge team shape a stay that feels effortless from the first message.</h2>
+                    <p>
+                        We can arrange transfers, in-room celebrations, dining reservations, and
+                        wellness experiences so every part of your itinerary feels considered.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <a href="mailto:reservations@veloragrand.com">reservations@veloragrand.com</a>
+                    <a href="tel:+18005550198">+1 (800) 555-0198</a>
+                    <p>Reply time: typically under 10 minutes for direct reservation requests.</p>
+                    <div class="contact-tags">
+                        <span>24/7 support</span>
+                        <span>Event planning</span>
+                        <span>Private transfers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Velora Grand</p>
+        <span>Modern hospitality with timeless atmosphere.</span>
+    </footer>
+</body>
+</html>
